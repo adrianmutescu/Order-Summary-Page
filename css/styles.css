@@ -1,0 +1,97 @@
+body {
+  font-family: 'Red Hat Display';
+  margin: 0;
+  width: auto;
+  height: auto;
+  text-align: center;
+  background-color: hsl(225, 100%, 94%);
+}
+
+.content {
+  width: 350px;
+  height: 700px;
+  position: relative;
+  margin: auto;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 125px;
+}
+
+.main-img {
+  width: 350px;
+  height: 200px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.order-summary {
+  color: hsl(223, 47%, 23%);
+  margin-top: 30px;
+}
+
+.main-p {
+  color: hsl(224, 23%, 55%);
+}
+
+.music-icon-img {
+  float: left;
+  margin: 50px 0 50px 40px;
+}
+
+.annual-plan {
+  float: left;
+  margin: 50px 0 0 10px;
+  color: hsl(223, 47%, 23%);
+}
+
+.price {
+  margin: 0;
+  position: relative;
+  top: 75px;
+  right: 126px;
+  color: hsl(224, 23%, 55%);
+
+}
+
+.change {
+  float: right;
+  position: relative;
+  top: 40px;
+  right: 50px;
+}
+
+.btn {
+  font-family: 'Red Hat Display';
+  text-align: center;
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  width: 280px;
+  height: 45px;
+  margin: auto;
+  background: hsl(245, 75%, 52%);
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  position: relative;
+  top: 40px;
+  border: none;
+  box-shadow: 2px 3px #888888;
+
+}
+
+.btn:hover {
+  background: #1075b3;
+  text-decoration: none;
+}
+
+.cancel {
+  color: hsl(224, 23%, 55%);
+  position: relative;
+  top: 50px;
+}
+
+.cancel:hover {
+  color: hsl(224, 23%, 55%);
+}
